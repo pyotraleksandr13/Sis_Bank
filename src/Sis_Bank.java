@@ -28,7 +28,7 @@ public class Sis_Bank {
     }
 
     public static void main(String[] args){
-        BancoOperaciones operaciones = new Operacciones();
+        BancoOperaciones operaciones = new Operaciones();
         boolean salida = false;
         Scanner eleccion = new Scanner(System.in);
 
