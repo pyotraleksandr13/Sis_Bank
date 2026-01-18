@@ -59,11 +59,11 @@ public class Operaciones implements BancoOperaciones {
         return Collections.unmodifiableList(movimientos);
     }
 
-    public Operacciones() {
+    public Operaciones() {
         this.saldo = BigDecimal.valueOf(100.00).setScale(2, RoundingMode.HALF_UP);
     }
 
-    public Operacciones(BigDecimal initialSaldo) {
+    public Operaciones(BigDecimal initialSaldo) {
         if (initialSaldo == null || initialSaldo.compareTo(BigDecimal.ZERO) < 0) {
             this.saldo = BigDecimal.valueOf(100.00).setScale(2, RoundingMode.HALF_UP);
         } else {
