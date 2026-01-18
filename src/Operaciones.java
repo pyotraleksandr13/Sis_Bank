@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Operacciones implements BancoOperaciones {
+public class Operaciones implements BancoOperaciones {
     private BigDecimal saldo;
     private final List<Transaccion> movimientos = new ArrayList<>();
 
